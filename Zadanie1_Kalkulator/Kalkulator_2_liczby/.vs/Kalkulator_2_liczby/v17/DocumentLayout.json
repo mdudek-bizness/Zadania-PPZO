@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RepoWSB\\Zadanie1_Kalkulator\\Kalkulator_2_liczby\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D04C72FF-1507-4A4E-84AF-BD8A124817A3}|Kalkulator_2_liczby\\Kalkulator_2_liczby.csproj|e:\\repowsb\\zadanie1_kalkulator\\kalkulator_2_liczby\\kalkulator_2_liczby\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D04C72FF-1507-4A4E-84AF-BD8A124817A3}|Kalkulator_2_liczby\\Kalkulator_2_liczby.csproj|solutionrelative:kalkulator_2_liczby\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RepoWSB\\Zadanie1_Kalkulator\\Kalkulator_2_liczby\\Kalkulator_2_liczby\\Program.cs",
+              "RelativeDocumentMoniker": "Kalkulator_2_liczby\\Program.cs",
+              "ToolTip": "E:\\RepoWSB\\Zadanie1_Kalkulator\\Kalkulator_2_liczby\\Kalkulator_2_liczby\\Program.cs",
+              "RelativeToolTip": "Kalkulator_2_liczby\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:48:04.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
