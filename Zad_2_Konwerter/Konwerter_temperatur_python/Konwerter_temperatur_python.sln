@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Konwerter_temperatur_python", "Konwerter_temperatur_python\Konwerter_temperatur_python.pyproj", "{BA9BAB83-30DC-4F71-9553-6E9F06C1C347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9BAB83-30DC-4F71-9553-6E9F06C1C347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9BAB83-30DC-4F71-9553-6E9F06C1C347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEAC2E3A-B153-4DC6-9706-52DB10A892F7}
+	EndGlobalSection
+EndGlobal
