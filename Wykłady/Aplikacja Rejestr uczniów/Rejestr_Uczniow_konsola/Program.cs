@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace DziennikSzkolny
+namespace RejestrUczniow
 {
     class Program
     {
