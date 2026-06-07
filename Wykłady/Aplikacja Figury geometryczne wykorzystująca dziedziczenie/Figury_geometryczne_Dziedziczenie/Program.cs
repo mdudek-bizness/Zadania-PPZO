@@ -31,7 +31,7 @@ public class Figura
     {
         return 0.0;
     }
-
+}
 
     public class Kwadrat : Figura
     {
@@ -91,7 +91,7 @@ public class Figura
 
         public override void WyswietlDane()
         {
-            Console.WriteLine("\n===== Prostakat =====");
+            Console.WriteLine("\n===== Prostokat =====");
             Console.WriteLine("Bok A: " + bokA);
             Console.WriteLine("Bok B: " + bokB);
             Console.WriteLine("Obwod: " + Obwod);
@@ -181,7 +181,7 @@ public class Figura
             {
                 Console.WriteLine("\n===== MENU =====");
                 Console.WriteLine("1. - Dodaj Kwadrat");
-                Console.WriteLine("2. - Dodaj Prostakat");
+                Console.WriteLine("2. - Dodaj Prostokat");
                 Console.WriteLine("3. - Dodaj Kolo");
                 Console.WriteLine("4. - Dodaj Trojkat");
                 Console.WriteLine("5. - Wyswietl wszystkie figury z listy");
@@ -279,7 +279,7 @@ public class Figura
 
         static void OdczytajZPliku(ArrayList lista)
         {
-            string sciezka = "Figury.txt";
+            string sciezka = "figury.txt";
 
             if (!File.Exists(sciezka))
             {
@@ -305,7 +305,7 @@ public class Figura
                         k.bok = Convert.ToDouble(czesci[1]);
                         wyczytana = k;
                     }
-                    else if (typ == "Prostakat")
+                    else if (typ == "Prostokat")
                     {
                         Prostokat p = new Prostokat();
                         p.bokA = Convert.ToDouble(czesci[1]);
@@ -338,4 +338,3 @@ public class Figura
             Console.WriteLine("Dane zostaly odczytane z pliku i zaladowane do listy");
         }
     }
-}
