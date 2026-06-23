@@ -1,0 +1,2 @@
+=== AKTUALNA LISTA REZERWACJI ===
+ID: 1 | Parcela nr: 20 | Od: 01.01.2005 Do: 05.02.2005
