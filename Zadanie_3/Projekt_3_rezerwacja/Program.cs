@@ -180,10 +180,17 @@ class SystemRezerwacji
     {
         try
         {
-            using (StreamWriter sw = new StreamWriter("ListaRezerwacji.txt"))
+            string folderUruchomieniowy = AppDomain.CurrentDomain.BaseDirectory;
+            
+            string sciezkaPliku = Path.GetFullPath(Path.Combine(folderUruchomieniowy, @"..\..\..\ListaRezerwacji.txt"));
+            
+            using (StreamWriter sw = new StreamWriter(sciezkaPliku))
             {
                 sw.WriteLine("=== AKTUALNA LISTA REZERWACJI ===");
-                if (rezerwacje.Count == 0) sw.WriteLine("Brak rezerwacji.");
+                if (rezerwacje.Count == 0)
+                {
+                    sw.WriteLine("Brak rezerwacji.");
+                }
                 else
                 {
                     foreach (var r in rezerwacje)
@@ -192,11 +199,12 @@ class SystemRezerwacji
                     }
                 }
             }
-            Console.WriteLine("Pomyślnie zapisano do pliku ListaRezerwacji.txt");
+            Console.WriteLine($"\nPomyślnie zapisano do pliku!");
+            Console.WriteLine($"Lokalizacja: {sciezkaPliku}");
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Błąd zapisu: " + ex.Message);
+            Console.WriteLine("\nBłąd zapisu: " + ex.Message);
         }
     }
 }
