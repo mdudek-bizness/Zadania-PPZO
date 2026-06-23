@@ -25,3 +25,7 @@ Aplikacja konsolowa służąca do zarządzania rezerwacjami miejsc na polu kempi
 2. **Dziedziczenie:** Klasy `ParcelaStandard`, `ParcelaPremium` i `ParcelaDeluxe` rozszerzają jedną, bazową klasę `Parcela`, dziedzicząc z niej podstawowe właściwości (takie jak Numer czy Cena) i omijając konieczność powielania kodu.
 3. **Abstrakcja:** Klasa `Parcela` posiada modyfikator `abstract`, przez co opisuje ogólny zarys tego, jak ma wyglądać miejsce kempingowe, nie pozwalając na stworzenie "pustej, ogólnej parceli" (nie można stworzyć instancji klasy abstrakcyjnej). Wymusza również kontrakt implementacji metody `PokazOpis()`.
 4. **Polimorfizm:** Metoda `WyswietlParcele()` w klasie `SystemRezerwacji` wywołuje w pętli/na indeksach tę samą metodę `PokazOpis()`. Ponieważ każdy z obiektów dziedziczy po innej klasie (Standard, Premium, Deluxe), podział obowiązków sprawia, że program wykonuje właściwą (nadpisaną) operację dla danego typu obiektu.    
+
+## Uwagi dodatkowe:
+
+Program nie jest w pełni skończony. Postaram się dodać liczenie kwoty, jaką należy zapłacić za wskazany okres czasu wynajmu parceli. Można również dodać wybór: Ilość osób (dorośli/dzieci/zwierzęta). W takim przypadku cena również mogłaby się różnić, lub dany typ parceli mógłby mieć względem tych danych ograniczenia.
